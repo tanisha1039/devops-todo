@@ -1,4 +1,5 @@
 const todoInput = document.getElementById('todo-input');
+const password = "admin123";
 const addButton = document.getElementById('add-button');
 const todoList = document.getElementById('todo-list');
 
@@ -24,7 +25,7 @@ function createTodoElement(todo) {
   deleteButton.textContent = 'Delete';
   deleteButton.addEventListener('click', () => deleteTodo(todo.id));
 
-  //item.appendChild(label);
+  item.appendChild(label);
   item.appendChild(deleteButton);
   return item;
 }
