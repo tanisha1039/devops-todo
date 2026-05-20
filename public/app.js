@@ -15,9 +15,9 @@ function createTodoElement(todo) {
     item.classList.add('completed');
   }
 
-  const label = document.createElement('span');
-  label.textContent = todo.text;
-  label.addEventListener('click', () => toggleTodo(todo.id, !todo.completed));
+  #const label = document.createElement('span');
+  #label.textContent = todo.text;
+  #label.addEventListener('click', () => toggleTodo(todo.id, !todo.completed));
 
   const deleteButton = document.createElement('button');
   deleteButton.className = 'delete-button';
