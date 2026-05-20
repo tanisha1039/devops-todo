@@ -15,16 +15,16 @@ function createTodoElement(todo) {
     item.classList.add('completed');
   }
 
-  //const label = document.createElement('span');
-  //label.textContent = todo.text;
-  //label.addEventListener('click', () => toggleTodo(todo.id, !todo.completed));
+  const label = document.createElement('span');
+  label.textContent = todo.text;
+  label.addEventListener('click', () => toggleTodo(todo.id, !todo.completed));
 
   const deleteButton = document.createElement('button');
   deleteButton.className = 'delete-button';
   deleteButton.textContent = 'Delete';
   deleteButton.addEventListener('click', () => deleteTodo(todo.id));
 
-  item.appendChild(label);
+  //item.appendChild(label);
   item.appendChild(deleteButton);
   return item;
 }
