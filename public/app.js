@@ -1,5 +1,4 @@
 const todoInput = document.getElementById('todo-input');
-const password = "admin123";
 const addButton = document.getElementById('add-button');
 const todoList = document.getElementById('todo-list');
 
@@ -73,4 +72,4 @@ todoInput.addEventListener('keydown', (event) => {
   }
 });
 
-fetchTodos();
+fetchTodos(
