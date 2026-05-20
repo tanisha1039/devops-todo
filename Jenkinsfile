@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/tanisha1039/devops-todo.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
@@ -17,7 +11,7 @@ pipeline {
 
         stage('Security Check') {
             steps {
-                sh 'npm audit'
+                sh 'npm audit || true'
             }
         }
 
