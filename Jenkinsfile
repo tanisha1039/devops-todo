@@ -17,7 +17,7 @@ pipeline {
 
         stage('SonarQube Scan') {
             steps {
-                sh 'sonar-scanner'
+               sh 'sonar-scanner -Dsonar.token=squ_6da23f9083b4d313999acba4a49aa0374396464e'
             }
         }
 

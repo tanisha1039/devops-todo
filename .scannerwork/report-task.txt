@@ -2,5 +2,5 @@ projectKey=devops-todo
 serverUrl=http://localhost:9000
 serverVersion=26.5.0.122743
 dashboardUrl=http://localhost:9000/dashboard?id=devops-todo
-ceTaskId=b62636b5-94c0-4067-9433-3944a9b180b7
-ceTaskUrl=http://localhost:9000/api/ce/task?id=b62636b5-94c0-4067-9433-3944a9b180b7
+ceTaskId=011ea9b2-2694-4c8a-a53a-c788f62f3987
+ceTaskUrl=http://localhost:9000/api/ce/task?id=011ea9b2-2694-4c8a-a53a-c788f62f3987
