@@ -60,10 +60,4 @@ app.get('*', (req, res) => {
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Todo app running at http://localhost:${port}`);
-});
-
-
-
-var unused = 123;
-
-const password = "admin123";
+}
